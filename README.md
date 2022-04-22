@@ -50,3 +50,15 @@ $ poetry run start
 PS D:\workspace\python\hello_py> poetry run start
 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  1.01s/it]
 ```
+
+## Formatter
+
+- install autopep8
+
+```sh
+$ pip install -U autopep8
+```
+
+- Check VSCode config
+  - Find `python.formatting.provider` in the settings.
+  - change to autopep8

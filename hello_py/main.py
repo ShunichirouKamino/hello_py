@@ -1,8 +1,8 @@
-from tqdm import tqdm
+import tqdm as td
 import time
 
-# 1秒ごとの進捗を10回表示
+
 def main():
     print("Hello! Progress!")
-    for i in tqdm(range(10)):
+    for i in td(range(10)):
         time.sleep(1)
