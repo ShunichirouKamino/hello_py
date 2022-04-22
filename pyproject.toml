@@ -6,6 +6,7 @@ authors = ["ShunichirouKamino <kamino.shunichirou@isid.co.jp>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+tqdm = "4.48.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -13,3 +14,6 @@ pytest = "^5.2"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "hello_py:main"
