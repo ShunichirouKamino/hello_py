@@ -6,19 +6,16 @@
 
 - Windows11
 - PowerShell
-  - install poetry
-- Git Bash
-  - anything
 
 ### Procedure
 
-- PowerShell
+- Install poetry.
 
-```powershell
+```sh
 $ (Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python -
 ```
 
-- Git Bash
+- Make a new project.
 
 ```sh
 $ poetry new <PROJECT-NAME>
