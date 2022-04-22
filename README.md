@@ -46,5 +46,7 @@ $ poetry install
 ## Hello World
 
 ```sh
-$ poetry run hello_py/main.py
+$ poetry run start
+PS D:\workspace\python\hello_py> poetry run start
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  1.01s/it]
 ```
