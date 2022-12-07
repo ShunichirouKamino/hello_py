@@ -59,3 +59,16 @@ $ pip install -U autopep8
 - Check VSCode config
   - Find `python.formatting.provider` in the settings.
   - change to autopep8
+
+
+if you use black
+
+- $ poetry run black . --check
+## TIPS
+
+- clean (Update your lock file)
+  - $ poetry lock --no-update
+- Run
+  - $ poetry run python src/xxx.py
+- Test
+  - $ poetry run python -rP
